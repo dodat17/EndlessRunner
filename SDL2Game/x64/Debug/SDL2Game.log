@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Dell\OneDrive\Desktop\EndlessRunner\SDL2Game\File.h(40,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  SDL2Game.vcxproj -> C:\Users\Dell\OneDrive\Desktop\EndlessRunner\x64\Debug\SDL2Game.exe
