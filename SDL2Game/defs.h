@@ -17,7 +17,7 @@ const int HERO_HEIGHT_PICS = 100; // 200
 const int HERO_WIDTH = 40; //80
 const int HERO_HEIGHT = 50; //120
 const int WAITING_TIME = 10;
-const int HERO_HEALTH = 5;
+const int HERO_HEALTH = 3;
 
 
 bool Start = false;

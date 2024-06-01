@@ -11,7 +11,7 @@
 using namespace std;
 
 #define INITIAL_SPEED_X 10;
-#define INITIAL_SPEED_Y 400;
+#define INITIAL_SPEED_Y 50;//400
 #define MOB_SPEED 2;
 #define SKULL_SPEED 7;
 
@@ -50,7 +50,13 @@ public:
 
     }
     void turnUp() { 
-        if (y >= GROUND - 10) dy = -speedY;
+        //dy = -speedY;
+        if(y >= GROUND - 300) dy = -speedY;
+        //if (y >= GROUND - 10) dy = -speedY;
+        if (y <= 0) {
+            y = 0;
+            dy = 0;
+        }
         // else dy = 0;
         
     }

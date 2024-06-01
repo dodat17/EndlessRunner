@@ -103,7 +103,7 @@ struct MyMan : public Graphics, public Mouse, public Sprite, public SoundManager
             else if (hero.dy < 0) {
                 if (hero.y > GROUND) hero.y = GROUND;
                 graphics.render(hero.x, hero.y, knightJump);
-                graphics.play(opera.gJump);
+                if(hero.y >= GROUND - 10 && hero.dy < 0) graphics.play(opera.gJump);
             }
         }
         if (Hero_Dead) {
